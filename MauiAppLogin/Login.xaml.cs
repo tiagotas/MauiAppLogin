@@ -32,10 +32,10 @@ public partial class Login : ContentPage
 			};
 
 			// LINQ
-			if(lista_usuarios.Any(
-				i => (dados_digitados.Usuario == i.Usuario && 
-					 dados_digitados.Senha == i.Senha) ))
-			{
+			bool encontrou = lista_usuarios.Any(i => (dados_digitados.Usuario == i.Usuario && dados_digitados.Senha == i.Senha) );
+
+            if (encontrou)
+            {
 				await SecureStorage.Default.SetAsync("usuario_logado", dados_digitados.Usuario);
 
 				App.Current.MainPage = new Protegida();

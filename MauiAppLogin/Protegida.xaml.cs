@@ -17,7 +17,7 @@ public partial class Protegida : ContentPage
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-		bool confirmacao = await DisplayAlert("Tem Certeza?", "Sair do App?", "Sim", "Não");
+		bool confirmacao = await DisplayAlert("Tem Certeza?", "Sair da conta?", "Sim", "Não");
 
 		if (confirmacao)
 		{
