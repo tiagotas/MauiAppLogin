@@ -1,4 +1,4 @@
-Repositório do projeto do Jogo da Velha com .NET MAUI
+Repositório do projeto do Sistema de Login com .NET MAUI
 
 ## Playlist com todas as videoaulas de Apps com .NET MAUI
 - [https://www.youtube.com/playlist?list=PLHVpcBDJr5dlTaaogjFikUDrw1E6PlODf](https://www.youtube.com/watch?v=HCiwRZm_APo&list=PLHVpcBDJr5dmdDjPw11d9Iqhh0gX_laJR)
